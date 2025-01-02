@@ -1,4 +1,4 @@
-Title: Bahrain-Based Custom Bolt DIY Repository by Salahuddin Softech Solution
+Bahrain-Based Custom Bolt DIY Repository by Salahuddin Softech Solution
 
 This repository is a customized version of the original Bolt DIY, specifically developed and managed in the Kingdom of Bahrain by Salahuddin Softech Solution. As the lead developer and programmer for this project (<https://github.com/murbati91>), I am proud to offer an extension that caters exclusively to the Middle East and North Africa (MENA) region.
 
