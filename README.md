@@ -1,3 +1,14 @@
+Title: Bahrain-Based Custom Bolt DIY Repository by Salahuddin Softech Solution
+
+This repository is a customized version of the original Bolt DIY, specifically developed and managed in the Kingdom of Bahrain by Salahuddin Softech Solution. As the lead developer and programmer for this project (<https://github.com/murbati91>), I am proud to offer an extension that caters exclusively to the Middle East and North Africa (MENA) region.
+
+By utilizing this repository, you can access customized components, scripts, and documentation that are relevant to the MENA market. The emphasis is on enhanced security measures to ensure the protection of sensitive data at every stage of the development process.
+
+This private repository aims to streamline your DIY Bolt projects and foster collaboration within the MENA developer community by offering a dedicated platform for sharing knowledge and resources. To get started, please follow the instructions provided in the README file or consult our comprehensive documentation guide.
+
+_____________________________________________________________________________________________________________
+Thanks to Colt and wonderful community for assisting!
+
 # bolt.diy (Previously oTToDev)
 [![bolt.diy: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://bolt.diy)
 
