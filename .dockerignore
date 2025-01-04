@@ -11,11 +11,9 @@ LICENSE
 README.md
 
 # Ignore environment examples and sensitive info
-.env
-*.local
 *.example
 
-# Ignore node modules, logs and cache files
+# Ignore node modules, logs, and cache files
 **/*.log
 **/node_modules
 **/dist
@@ -24,3 +22,12 @@ README.md
 logs
 dist-ssr
 .DS_Store
+
+# Keep `.env` files if required (uncomment if needed)
+!*.env
+
+# Exclude local OS-specific files
+Thumbs.db
+*.swp
+*.bak
+*.tmp
