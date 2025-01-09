@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["@remix-run/cloudflare", "vite/client", "@cloudflare/workers-types/2023-07-01", "@types/dom-speech-recognition"],
+    "types": [
+      "@remix-run/cloudflare",
+      "vite/client",
+      "@cloudflare/workers-types",
+      "@types/dom-speech-recognition",
+      "@remix-run/node"
+    ],
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
@@ -16,10 +22,9 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["./app/*"],
+      "@remix-run/node": ["node_modules/@remix-run/node"]
     },
-
-    // vite takes care of building everything, not tsc
     "noEmit": true
   },
   "include": [
