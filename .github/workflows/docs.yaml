@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - 'docs/**'  # This will only trigger the workflow when files in docs directory change
-
 permissions:
   contents: write
 
@@ -14,14 +13,16 @@ jobs:
   build_docs:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-
-      - name: Set cache ID
-        run: echo "cache_id=$(date +%Y-%m-%d)" >> $GITHUB_ENV
-
+          python-version: 3.x
+      - name: Set cache_id
+        run: echo "cache_id=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
       - name: Cache mkdocs-material
         uses: actions/cache@v4
         with:
@@ -29,9 +30,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-
-      - name: Install MkDocs Material
-        run: pip install mkdocs-material
-
-      - name: Deploy with MkDocs
-        run: mkdocs gh-deploy --force
+      - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force
