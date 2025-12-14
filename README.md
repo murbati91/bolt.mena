@@ -1,4 +1,4 @@
-Bahrain-Based Custom Bolt DIY Repository by Salahuddin Softech Solution
+Bahrain-Based Custom Bolt DIY Repository by Tech Sierra Solutions
 
 Bolt MENA is a customized version of Bolt DIY tailored for the MENA region. Developed in Bahrain, this project emphasizes localized components, enhanced security, and ease of deployment. It also includes features for white labeling and source code distribution.
 
@@ -141,3 +141,7 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 
 ## License
 This project is licensed under the MIT License.
+
+---
+
+Built with ❤️ in Bahrain by Tech Sierra Solutions
